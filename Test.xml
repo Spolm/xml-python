@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ns1:root xmlns:ns1="https://web.liderpapel.com">     
+    <ns1:Products ns1:supplierCode="CSP" ns1:date="2018-07-03">         
+        <ns1:Product ns1:id="225">             
+            <ns1:Prices>                 
+                <ns1:Price ns1:priceType="purchase" ns1:startDate="2018-07-03" ns1:currency="EUR">                     
+                    <ns1:PriceLines>                         
+                        <ns1:PriceLine>                             
+                            <ns1:PriceExcTax>10.5</ns1:PriceExcTax>
+                            <ns1:MinQuantity>1</ns1:MinQuantity>                         
+                        </ns1:PriceLine>
+                    </ns1:PriceLines>
+                </ns1:Price>
+                <ns1:Price ns1:priceType="suggestedCI" ns1:startDate="2018-07-03" ns1:currency="EUR">                    
+                    <ns1:PriceLines>
+                        <ns1:PriceLine>                             
+                            <ns1:PriceExcTax>20.81</ns1:PriceExcTax>                         
+                        </ns1:PriceLine>                     
+                    </ns1:PriceLines>                 
+                </ns1:Price>             
+            </ns1:Prices>             
+            <ns1:VATRates>                 
+                <ns1:VATRate ns1:country="FR">20.0</ns1:VATRate>             
+            </ns1:VATRates>         
+        </ns1:Product>     
+    </ns1:Products> 
+</ns1:root>
